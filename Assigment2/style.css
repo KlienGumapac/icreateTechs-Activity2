@@ -1,0 +1,55 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"], 
+input[type="password"], 
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: aqua;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type="submit"]:hover {
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+}
+form {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 100px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+.Comment {
+    font-size: 20px;
+    font-weight: bold;
+}
+.Gender-type {
+    display: flex;
+    
+}
+.Language-type {
+    display: flex;
+    padding-top: 20px;;
+    
+}
